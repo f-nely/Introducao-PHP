@@ -1,6 +1,7 @@
 <?php
 
-function CalculaImc($peso, $altura){
+function CalculaImc($peso, $altura)
+{
     $imc = $peso / ($altura ** 2);
 
     if ($imc < 18.5){
